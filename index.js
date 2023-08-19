@@ -25,7 +25,7 @@
         }
 
     } catch (error) {
-           alert("invailid creditial"); 
+           alert("incorrect credentials"); 
     }
     })
 
