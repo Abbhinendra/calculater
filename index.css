@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    
+    margin-top: 26px;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+  
+}
+.button{
+    padding: 18px;
+    border-radius: 12px;
+    border: 2px solid black;
+    color:black;
+    font-size: 12px;
+    font-weight: 800;
+    margin: 6px 2px;
+    cursor: pointer;
+    
+
+}
+#input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 8px;
+    margin-left: -1%;
+    border-radius: 12px;
+}
+#input:focus{
+    border: 2px solid lightblue;
+}
+
+body{
+    background-color: black;
+}
+.p{
+    margin-top: -6%;
+}
+
+.ro button{
+    
+    font-size: 9px;
+    font-weight: 210;
+}
+#font{
+    font-weight: 700;
+    font-size: 9px;
+
+}
+.p h2{
+    color: white;
+    filter: brightness(800);
+}
+.b{
+    background-color: blueviolet;
+}
+.c{
+    background-color: yellowgreen;
+}
+.d{
+    background-color: tomato;
+}
+.e{
+    background-color: teal;
+}
+.d1{
+background-image: linear-gradient(rgb(71, 55, 55),rgb(244, 14, 244),rgb(50, 37, 44));
+}
+.c1{
+background-image: linear-gradient(rgb(20, 135, 20), rgb(165, 165, 56),purple);
+}
+.b1{
+    background-image: linear-gradient(rgb(133, 21, 238), rgb(127, 108, 74), rgb(37, 37, 109));
+}
+ .a1{
+   background-image: linear-gradient(rgb(58, 195, 241),rgb(95, 116, 95),rgb(4, 80, 4));
+}
+.a2{
+    background-image:linear-gradient(rgb(17, 17, 179),rgb(254, 215, 222),rgb(7, 86, 86));
+}
+.a3{
+   background-image:linear-gradient(lightblue,lightpink,lightgreen);
+}
+.a4{
+   background-image: linear-gradient(lightblue,rgb(131, 4, 250),pink);
+}
+
+.containercolor{
+    background-image:linear-gradient(rgb(206, 206, 119),rgb(120, 228, 120)) ;
+    max-width: max-content;
+    height: 72vh;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+.ro{
+    background-image:linear-gradient(rgb(172, 172, 110),rgb(124, 214, 124)) ;
+}
+.p1{
+    background-image:linear-gradient(rgb(172, 172, 110),rgb(121, 218, 121)) ;
+}
+.p2{
+    background-image:linear-gradient(rgb(172, 172, 110),rgb(123, 222, 123)) ;
+}
+.p3{
+    background-image:linear-gradient(rgb(172, 172, 110),rgb(117, 215, 117)) ;
+ 
+}
